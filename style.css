@@ -1,17 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+h2{
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 .card{
     background-color: pink;
     width: 23%;
+    padding: 20px 10px;
     border-radius: 20px;
-    padding: 30px;
     text-align: center;
     border: solid 3px rgb(255, 144, 163);
-    margin-top: 50px;
+
 }
 
 .flex {
@@ -40,13 +47,15 @@
 .w25{
     width: 25%;
 }
-
-.w35{
-    width: 35%;
+.w28{
+    width: 28%;
+}
+.w40{
+    width: 40%;
 }
 
-.w60{
-    width: 60%;
+.w50{
+    width: 50%;
 }
 .textCenter {
     text-align: center;
@@ -61,6 +70,7 @@
 }
 
 .img{
+    width: 100%;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(255, 235, 197, 0.61);
 }
@@ -68,3 +78,4 @@
 .grey{
     background-color: grey;
 }
+
